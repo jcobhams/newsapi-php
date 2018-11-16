@@ -1,6 +1,5 @@
 ## NewsAPI-PHP
-A PHP client for the [News API](https://newsapi.org/docs/get-started)
-PHP implementation of [ng-banks](https://github.com/BolajiOlajide/ng-banks).
+A PHP client for the [News API](https://newsapi.org/docs/get-started).
 
 ###Installation
 Available for installation on packagist using composer.
