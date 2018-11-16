@@ -10,6 +10,7 @@ composer require jcobhams/newsapi
 ### Usage
 After installation and and `require`ing `vendor/autoload.php` file in your project,
 
+Get Your API key from [here](https://newsapi.org/register)
 ```php
 use jcobhams\NewsApi\NewsApi;
 .
