@@ -8,7 +8,7 @@ class NewsApiTest extends TestCase
 	public function setUp()
 	{
 		parent::setUp();
-		$this->newsapi = new NewsApi('d030dc1594fb475fa62ba4950d0bab86');
+		$this->newsapi = new NewsApi('some-api-key');
 	}
 
 	//TOP HEADLINES ENDPOINT
