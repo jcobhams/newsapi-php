@@ -1,7 +1,7 @@
 ## NewsAPI-PHP
 A PHP client for the [News API](https://newsapi.org/docs/get-started).
 
-###Installation
+### Installation
 Available for installation on packagist using composer.
 ```
 composer require jcobhams/newsapi
@@ -16,7 +16,7 @@ use jcobhams\NewsApi\NewsApi;
 .
 .
 .
-$newsapi = new NewsApi($api_key='your-api-key');
+$newsapi = new NewsApi($your_api_key);
 ```
 
 ### Get TopHeadLines
