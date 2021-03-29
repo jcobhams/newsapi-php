@@ -116,7 +116,7 @@ class NewsApi
 
 		//Add SortBy if provided
 		if (!is_null($sort_by)) {
-			if (Helpers::isLanguageValid($sort_by)) { $payload['sortBy'] = $sort_by; }
+			if (Helpers::isSortByValid($sort_by)) { $payload['sortBy'] = $sort_by; }
 			else {throw new NewsApiException("Invalid SortBy Identifier Provided "); }
 		}
 
